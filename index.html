@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saru Bar Italian Restaurant</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#fafafa; color:#333; }
+    header { background:#8B0000; color:white; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:28px; }
+    section { padding:40px 20px; text-align:center; }
+    .menu-grid { display:grid; grid-template-columns:1fr; gap:20px; max-width:900px; margin:auto; }
+    .card { background:white; padding:20px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.1); }
+    .btn { background:#8B0000; color:white; padding:12px 20px; border:none; border-radius:10px; cursor:pointer; font-size:16px; }
+    .btn:hover { background:#a30000; }
+    footer { background:#111; color:white; padding:20px; text-align:center; }
+    input, textarea { width:100%; padding:10px; margin:8px 0; border-radius:8px; border:1px solid #ccc; }
+    @media(min-width:768px){
+      .menu-grid { grid-template-columns:repeat(3,1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Saru Bar Italian Restaurant</h1>
+  <p>Authentic Italian Taste with Premium Bar Experience</p>
+</header>
+
+<section>
+  <h2>Our Signature Menu</h2>
+  <div class="menu-grid">
+    <div class="card"><h3>Margherita Pizza</h3><p>Fresh mozzarella, basil & tomato sauce</p></div>
+    <div class="card"><h3>Creamy Carbonara</h3><p>Classic pasta with parmesan & beef bacon</p></div>
+    <div class="card"><h3>Seafood Alfredo</h3><p>Pasta with shrimp & creamy garlic sauce</p></div>
+    <div class="card"><h3>Grilled Ribeye Steak</h3><p>Served with herbs & vegetables</p></div>
+    <div class="card"><h3>Tiramisu</h3><p>Italian dessert with mascarpone & espresso</p></div>
+    <div class="card"><h3>Signature Cocktails</h3><p>Negroni, Aperol Spritz, Mojito & more</p></div>
+  </div>
+</section>
+
+<section style="background:#f2f2f2;">
+  <h2>Online Reservation</h2>
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="date" required>
+    <input type="time" required>
+    <input type="number" placeholder="Number of Guests" required>
+    <textarea placeholder="Special Request"></textarea>
+    <button type="submit" class="btn">Reserve Now</button>
+  </form>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>📍 Address: Coming Soon</p>
+  <p>📞 Phone: +977-9800000000</p>
+  <p>🕒 Open Daily: 10:00 AM - 10:00 PM</p>
+</section>
+
+<footer>
+  <p>© 2026 Saru Bar Italian Restaurant | Nepal</p>
+</footer>
+
+</body>
+</html>
